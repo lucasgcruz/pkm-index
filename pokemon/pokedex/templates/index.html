@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <link rel="stylesheet" href="{% static 'pokedex/style.css' %}">
+    <title>Pokédex</title>
+</head>
+<body>
+    <div class="center">Olá mundo, esta Pokédex ainda é muito humilde então se contentem com apenas um pokémon.</div>
+  <br>
+    <div class="center"><img src="{{ fotopokemon }}" alt="" id="foto"></div>
+    <div class="center"><div>{{ nomepokemon }}</div>
+    <div> {{ idpokemon }}</div>
+    <div class="center"> {% if tipo1pokemon == 'fighting' %}
+    <img src="{% static 'fighting.png' %}" alt="" class="center">
+    {% endif %}
+    </div>
+    </div>
+  
+    
+</body>
+</html>

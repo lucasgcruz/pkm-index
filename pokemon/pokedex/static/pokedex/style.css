@@ -1,0 +1,15 @@
+@import url(//fonts.googleapis.com/css?family=Roboto:700,400,300,100);@import url(//fonts.googleapis.com/css?family=Open+Sans:700,400,300,100);
+
+* {
+  font-family: Roboto;
+}
+
+.center {
+    text-align: center;
+}
+
+#foto {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
