@@ -1,3 +1,5 @@
+
+
 @import url(//fonts.googleapis.com/css?family=Roboto:700,400,300,100);@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 
 * {
@@ -9,26 +11,35 @@
     text-align: center;
 }
 
+.imagens {
+ background-image: url("https://i.ibb.co/52kNt4V/pokebola.png");
+background-repeat: no-repeat;
+background-size: 18rem;
+background-position: center;
+
+}
+
 body{
   background-color:#5ea0c9;
+
 }
 
-.backpokeball
+.gifpokebola
 {
-  z-index: 0;
   height:20rem;
   width:20rem;
+
+
 }
 
-#foto {
-  position: absolute;
-  z-index: 1;
-  right:45%;
-  height: 20rem;
-  width: 20rem;
-  text-align: center;
+.fotopokemon {
+  height: 18rem;
+  width: 18rem;
+
   
 }
+
+
 
 .typeicon {
   height: 3rem;

@@ -163,3 +163,589 @@ Watching for file changes with StatReloader
 [30/Aug/2022 14:26:30] "GET / HTTP/1.1" 200 1421
 [30/Aug/2022 14:26:30] "GET /static/pokebola.gif HTTP/1.1" 304 0
 [30/Aug/2022 14:26:30] "GET /static/pokedex/style.css HTTP/1.1" 200 533
+[30/Aug/2022 14:26:43] "GET / HTTP/1.1" 200 1421
+[30/Aug/2022 14:26:43] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:26:44] "GET /static/pokedex/style.css HTTP/1.1" 200 525
+[30/Aug/2022 14:26:52] "GET / HTTP/1.1" 200 1421
+[30/Aug/2022 14:26:52] "GET /static/pokedex/style.css HTTP/1.1" 200 525
+[30/Aug/2022 14:26:52] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:26:59] "GET / HTTP/1.1" 200 1421
+[30/Aug/2022 14:27:00] "GET /static/pokedex/style.css HTTP/1.1" 200 525
+[30/Aug/2022 14:27:00] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:27:14] "GET / HTTP/1.1" 200 1421
+[30/Aug/2022 14:27:14] "GET /static/pokedex/style.css HTTP/1.1" 200 525
+[30/Aug/2022 14:27:14] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:27:19] "GET / HTTP/1.1" 200 1421
+[30/Aug/2022 14:27:19] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:27:19] "GET /static/pokedex/style.css HTTP/1.1" 200 525
+/home/runner/pkm-index/pokemon/pokedex/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 30, 2022 - 13:40:44
+Django version 4.1, using settings 'pokemon.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[30/Aug/2022 14:27:27] "GET / HTTP/1.1" 200 1421
+[30/Aug/2022 14:27:27] "GET /static/pokedex/style.css HTTP/1.1" 200 525
+[30/Aug/2022 14:27:27] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:27:28] "GET / HTTP/1.1" 200 1421
+[30/Aug/2022 14:27:28] "GET / HTTP/1.1" 200 1421
+[30/Aug/2022 14:27:28] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+[30/Aug/2022 14:27:28] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:27:29] "GET /static/pokedex/style.css HTTP/1.1" 200 525
+[30/Aug/2022 14:27:29] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:27:47] "GET / HTTP/1.1" 200 1421
+[30/Aug/2022 14:27:48] "GET /static/pokedex/style.css HTTP/1.1" 200 542
+[30/Aug/2022 14:27:48] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:27:53] "GET / HTTP/1.1" 200 1421
+[30/Aug/2022 14:27:53] "GET /static/pokedex/style.css HTTP/1.1" 200 542
+[30/Aug/2022 14:27:53] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:30:37] "GET / HTTP/1.1" 200 1421
+[30/Aug/2022 14:30:37] "GET /static/pokedex/style.css HTTP/1.1" 200 490
+[30/Aug/2022 14:30:37] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:30:46] "GET / HTTP/1.1" 200 1421
+[30/Aug/2022 14:30:46] "GET /static/pokedex/style.css HTTP/1.1" 200 490
+[30/Aug/2022 14:30:46] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:30:50] "GET / HTTP/1.1" 200 1421
+[30/Aug/2022 14:30:50] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:30:50] "GET /static/pokedex/style.css HTTP/1.1" 200 490
+[30/Aug/2022 14:30:51] "GET / HTTP/1.1" 200 1421
+[30/Aug/2022 14:30:51] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:30:51] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+[30/Aug/2022 14:30:56] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+/home/runner/pkm-index/pokemon/pokedex/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 30, 2022 - 14:27:27
+Django version 4.1, using settings 'pokemon.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[30/Aug/2022 14:31:33] "GET / HTTP/1.1" 200 1287
+[30/Aug/2022 14:31:34] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+[30/Aug/2022 14:31:34] "GET / HTTP/1.1" 200 1287
+[30/Aug/2022 14:31:34] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:31:35] "GET /static/pokedex/style.css HTTP/1.1" 200 490
+[30/Aug/2022 14:31:35] "GET / HTTP/1.1" 200 1287
+[30/Aug/2022 14:31:35] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+[30/Aug/2022 14:31:35] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:31:35] "GET /static/pokebola.gif HTTP/1.1" 304 0
+/home/runner/pkm-index/pokemon/pokedex/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 30, 2022 - 14:31:32
+Django version 4.1, using settings 'pokemon.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[30/Aug/2022 14:32:23] "GET / HTTP/1.1" 200 1280
+[30/Aug/2022 14:32:23] "GET / HTTP/1.1" 200 1280
+[30/Aug/2022 14:32:23] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+[30/Aug/2022 14:32:23] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:32:23] "GET / HTTP/1.1" 200 1280
+[30/Aug/2022 14:32:23] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+[30/Aug/2022 14:32:24] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+[30/Aug/2022 14:32:24] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:32:24] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:33:31] "GET / HTTP/1.1" 200 1280
+[30/Aug/2022 14:33:32] "GET /static/pokedex/style.css HTTP/1.1" 200 539
+[30/Aug/2022 14:33:32] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:33:37] "GET / HTTP/1.1" 200 1280
+[30/Aug/2022 14:33:37] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:33:37] "GET /static/pokedex/style.css HTTP/1.1" 200 520
+[30/Aug/2022 14:34:42] "GET / HTTP/1.1" 200 1320
+[30/Aug/2022 14:34:42] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:34:42] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+[30/Aug/2022 14:35:02] "GET / HTTP/1.1" 200 1320
+[30/Aug/2022 14:35:02] "GET /static/pokedex/style.css HTTP/1.1" 200 554
+[30/Aug/2022 14:35:02] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:35:14] "GET / HTTP/1.1" 200 1320
+[30/Aug/2022 14:35:14] "GET /static/pokedex/style.css HTTP/1.1" 200 556
+[30/Aug/2022 14:35:14] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:35:15] "GET / HTTP/1.1" 200 1320
+[30/Aug/2022 14:35:15] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+[30/Aug/2022 14:35:15] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:35:31] "GET / HTTP/1.1" 200 1320
+[30/Aug/2022 14:35:32] "GET /static/pokedex/style.css HTTP/1.1" 200 582
+[30/Aug/2022 14:35:32] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:35:40] "GET / HTTP/1.1" 200 1320
+[30/Aug/2022 14:35:40] "GET /static/pokedex/style.css HTTP/1.1" 200 582
+[30/Aug/2022 14:35:40] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:35:41] "GET / HTTP/1.1" 200 1320
+[30/Aug/2022 14:35:41] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:35:41] "GET /static/pokedex/style.css HTTP/1.1" 200 582
+[30/Aug/2022 14:35:42] "GET / HTTP/1.1" 200 1320
+[30/Aug/2022 14:35:42] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+[30/Aug/2022 14:35:42] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:35:45] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+[30/Aug/2022 14:36:19] "GET / HTTP/1.1" 200 1296
+[30/Aug/2022 14:36:19] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+[30/Aug/2022 14:36:19] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:36:41] "GET / HTTP/1.1" 200 1295
+[30/Aug/2022 14:36:41] "GET /static/pokedex/style.css HTTP/1.1" 200 603
+[30/Aug/2022 14:36:41] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:36:44] "GET / HTTP/1.1" 200 1295
+[30/Aug/2022 14:36:44] "GET /static/pokedex/style.css HTTP/1.1" 200 604
+[30/Aug/2022 14:36:44] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:36:49] "GET / HTTP/1.1" 200 1295
+[30/Aug/2022 14:36:49] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+[30/Aug/2022 14:36:49] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:37:04] "GET / HTTP/1.1" 200 1295
+[30/Aug/2022 14:37:05] "GET /static/pokedex/style.css HTTP/1.1" 200 519
+[30/Aug/2022 14:37:05] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:37:19] "GET / HTTP/1.1" 200 1284
+[30/Aug/2022 14:37:20] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:37:20] "GET /static/pokedex/style.css HTTP/1.1" 200 538
+[30/Aug/2022 14:38:10] "GET / HTTP/1.1" 200 1284
+[30/Aug/2022 14:38:10] "GET /static/pokedex/style.css HTTP/1.1" 200 567
+[30/Aug/2022 14:38:10] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:38:11] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+[30/Aug/2022 14:38:32] "GET / HTTP/1.1" 200 1284
+[30/Aug/2022 14:38:33] "GET /static/pokedex/style.css HTTP/1.1" 200 594
+[30/Aug/2022 14:38:33] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:38:34] "GET / HTTP/1.1" 200 1284
+[30/Aug/2022 14:38:35] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+[30/Aug/2022 14:38:35] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:39:32] "GET / HTTP/1.1" 200 1335
+[30/Aug/2022 14:39:32] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:39:32] "GET /static/pokedex/style.css HTTP/1.1" 200 577
+[30/Aug/2022 14:39:33] "GET / HTTP/1.1" 200 1335
+[30/Aug/2022 14:39:33] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:39:33] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+[30/Aug/2022 14:39:42] "GET /static/pokebola.gif HTTP/1.1" 200 187942
+Not Found: /favicon.ico
+[30/Aug/2022 14:39:43] "GET /favicon.ico HTTP/1.1" 404 2305
+[30/Aug/2022 14:40:02] "GET / HTTP/1.1" 200 1391
+[30/Aug/2022 14:40:02] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+[30/Aug/2022 14:40:02] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:40:03] "GET / HTTP/1.1" 200 1391
+[30/Aug/2022 14:40:04] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:40:04] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+[30/Aug/2022 14:40:36] "GET / HTTP/1.1" 200 1395
+[30/Aug/2022 14:40:36] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+[30/Aug/2022 14:40:36] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:40:37] "GET / HTTP/1.1" 200 1395
+[30/Aug/2022 14:40:37] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:40:37] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+[30/Aug/2022 14:40:44] "GET / HTTP/1.1" 200 1332
+[30/Aug/2022 14:40:45] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+[30/Aug/2022 14:41:53] "GET / HTTP/1.1" 200 1285
+[30/Aug/2022 14:41:53] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+[30/Aug/2022 14:41:53] "GET /static/pokebola.gif HTTP/1.1" 200 187942
+[30/Aug/2022 14:42:35] "GET /static/pokebola.gif HTTP/1.1" 200 187942
+[30/Aug/2022 14:42:50] "GET / HTTP/1.1" 200 1228
+[30/Aug/2022 14:42:50] "GET /static/pokedex/style.css HTTP/1.1" 200 691
+[30/Aug/2022 14:43:14] "GET / HTTP/1.1" 200 1228
+[30/Aug/2022 14:43:14] "GET /static/pokedex/style.css HTTP/1.1" 200 521
+[30/Aug/2022 14:43:23] "GET / HTTP/1.1" 200 1285
+[30/Aug/2022 14:43:24] "GET / HTTP/1.1" 200 1285
+[30/Aug/2022 14:43:24] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:43:24] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+[30/Aug/2022 14:43:24] "GET /static/pokedex/style.css HTTP/1.1" 200 521
+[30/Aug/2022 14:43:25] "GET /static/pokebola.gif HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: '10.30.0.7:16431'. You may need to add '10.30.0.7' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '10.30.0.7:16431'. You may need to add '10.30.0.7' to ALLOWED_HOSTS.
+Bad Request: /
+[30/Aug/2022 15:13:03] "GET / HTTP/1.1" 400 78900
+[30/Aug/2022 15:13:04] "GET / HTTP/1.1" 200 1285
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: '10.30.0.7:16431'. You may need to add '10.30.0.7' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '10.30.0.7:16431'. You may need to add '10.30.0.7' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '10.30.0.7:16431'. You may need to add '10.30.0.7' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '10.30.0.7:16431'. You may need to add '10.30.0.7' to ALLOWED_HOSTS.
+Bad Request: /
+[30/Aug/2022 15:15:01] "GET / HTTP/1.1" 200 1285
+[30/Aug/2022 15:15:01] "GET /static/pokedex/style.css HTTP/1.1" 200 521
+[30/Aug/2022 15:15:01] "GET /static/pokebola.gif HTTP/1.1" 200 187942
+Invalid HTTP_HOST header: '10.30.0.7:16431'. You may need to add '10.30.0.7' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '10.30.0.7:16431'. You may need to add '10.30.0.7' to ALLOWED_HOSTS.
+Bad Request: /
+[30/Aug/2022 15:15:37] "GET / HTTP/1.1" 400 78900
+[30/Aug/2022 15:15:37] "GET / HTTP/1.1" 200 1285
+[30/Aug/2022 15:15:37] "GET /static/pokedex/style.css HTTP/1.1" 200 521
+[30/Aug/2022 15:15:37] "GET /static/pokebola.gif HTTP/1.1" 200 187942
+Invalid HTTP_HOST header: '10.30.0.7:16431'. You may need to add '10.30.0.7' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '10.30.0.7:16431'. You may need to add '10.30.0.7' to ALLOWED_HOSTS.
+Bad Request: /
+[30/Aug/2022 15:18:34] "GET / HTTP/1.1" 200 1285
+[30/Aug/2022 15:19:48] "GET / HTTP/1.1" 200 1285
+[30/Aug/2022 15:19:48] "GET /static/pokedex/style.css HTTP/1.1" 200 521
+[30/Aug/2022 15:19:48] "GET /static/pokebola.gif HTTP/1.1" 200 187942
+/home/runner/pkm-index/pokemon/pokedex/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 30, 2022 - 15:12:30
+Django version 4.1, using settings 'pokemon.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/home/runner/pkm-index/pokemon/pokedex/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 30, 2022 - 15:20:01
+Django version 4.1, using settings 'pokemon.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/runner/pkm-index/pokemon/pokedex/views.py", line 11, in index
+    nome = pokemon['name'].upper()
+KeyError: 'name'
+[30/Aug/2022 15:20:18] "GET / HTTP/1.1" 500 80340
+Not Found: /favicon.ico
+[30/Aug/2022 15:20:19] "GET /favicon.ico HTTP/1.1" 404 2287
+Invalid HTTP_HOST header: '10.30.0.7:16434'. You may need to add '10.30.0.7' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '10.30.0.7:16434'. You may need to add '10.30.0.7' to ALLOWED_HOSTS.
+Bad Request: /
+[30/Aug/2022 15:20:39] "GET / HTTP/1.1" 400 78900
+Invalid HTTP_HOST header: '10.30.0.7:16434'. You may need to add '10.30.0.7' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '10.30.0.7:16434'. You may need to add '10.30.0.7' to ALLOWED_HOSTS.
+Bad Request: /
+[30/Aug/2022 15:20:39] "GET / HTTP/1.1" 400 78900
+Invalid HTTP_HOST header: '10.30.0.7:16434'. You may need to add '10.30.0.7' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '10.30.0.7:16434'. You may need to add '10.30.0.7' to ALLOWED_HOSTS.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/runner/pkm-index/pokemon/pokedex/views.py", line 11, in index
+    nome = pokemon['name'].upper()
+KeyError: 'name'
+Bad Request: /
+[30/Aug/2022 15:20:40] "GET / HTTP/1.1" 500 80209
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/runner/pkm-index/pokemon/pokedex/views.py", line 11, in index
+    nome = pokemon['name'].upper()
+KeyError: 'name'
+[30/Aug/2022 15:20:40] "GET / HTTP/1.1" 500 80292
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/runner/pkm-index/pokemon/pokedex/views.py", line 11, in index
+    nome = pokemon['name'].upper()
+KeyError: 'name'
+[30/Aug/2022 15:20:41] "GET / HTTP/1.1" 500 80279
+/home/runner/pkm-index/pokemon/pokedex/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 30, 2022 - 15:20:07
+Django version 4.1, using settings 'pokemon.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/home/runner/pkm-index/pokemon/pokedex/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 30, 2022 - 15:20:47
+Django version 4.1, using settings 'pokemon.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: '10.30.0.7:16439'. You may need to add '10.30.0.7' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '10.30.0.7:16439'. You may need to add '10.30.0.7' to ALLOWED_HOSTS.
+Bad Request: /
+[30/Aug/2022 15:21:18] "GET / HTTP/1.1" 200 1431
+[30/Aug/2022 15:21:18] "GET /static/pokedex/style.css HTTP/1.1" 200 521
+[30/Aug/2022 15:21:18] "GET /static/pokebola.gif HTTP/1.1" 200 187942
+Invalid HTTP_HOST header: '10.30.0.7:16439'. You may need to add '10.30.0.7' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '10.30.0.7:16439'. You may need to add '10.30.0.7' to ALLOWED_HOSTS.
+Bad Request: /
+[30/Aug/2022 15:21:49] "GET / HTTP/1.1" 400 78900
+[30/Aug/2022 15:21:51] "GET / HTTP/1.1" 200 1431
+/home/runner/pkm-index/pokemon/pokedex/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 30, 2022 - 15:21:16
+Django version 4.1, using settings 'pokemon.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: '10.30.0.7:16442'. You may need to add '10.30.0.7' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '10.30.0.7:16442'. You may need to add '10.30.0.7' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: '10.30.0.7:16442'. You may need to add '10.30.0.7' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '10.30.0.7:16442'. You may need to add '10.30.0.7' to ALLOWED_HOSTS.
+Bad Request: /
+Bad Request: /
+[30/Aug/2022 15:22:34] "GET / HTTP/1.1" 400 78900
+[30/Aug/2022 15:22:34] "GET / HTTP/1.1" 400 78900
+[30/Aug/2022 15:22:34] "GET / HTTP/1.1" 200 1288
+[30/Aug/2022 15:22:35] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+[30/Aug/2022 15:22:35] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 15:22:35] "GET / HTTP/1.1" 200 1288
+/home/runner/pkm-index/pokemon/pokedex/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 30, 2022 - 15:22:02
+Django version 4.1, using settings 'pokemon.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/home/runner/pkm-index/pokemon/pokedex/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 30, 2022 - 15:23:05
+Django version 4.1, using settings 'pokemon.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: '10.30.0.7:16447'. You may need to add '10.30.0.7' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '10.30.0.7:16447'. You may need to add '10.30.0.7' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '10.30.0.7:16447'. You may need to add '10.30.0.7' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '10.30.0.7:16447'. You may need to add '10.30.0.7' to ALLOWED_HOSTS.
+[30/Aug/2022 15:24:08] "GET / HTTP/1.1" 400 78900
+Bad Request: /
+[30/Aug/2022 15:24:08] "GET / HTTP/1.1" 400 78900
+Invalid HTTP_HOST header: '10.30.0.7:16447'. You may need to add '10.30.0.7' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '10.30.0.7:16447'. You may need to add '10.30.0.7' to ALLOWED_HOSTS.
+Bad Request: /
+[30/Aug/2022 15:24:08] "GET / HTTP/1.1" 400 78900
+[30/Aug/2022 15:24:08] "GET / HTTP/1.1" 200 1292
+[30/Aug/2022 15:24:09] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 15:24:09] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+[30/Aug/2022 15:24:09] "GET / HTTP/1.1" 200 1292
+[30/Aug/2022 15:24:10] "GET / HTTP/1.1" 200 1292
+/home/runner/pkm-index/pokemon/pokedex/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 30, 2022 - 15:23:36
+Django version 4.1, using settings 'pokemon.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: '10.30.0.7:16447'. You may need to add '10.30.0.7' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '10.30.0.7:16447'. You may need to add '10.30.0.7' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '10.30.0.7:16447'. You may need to add '10.30.0.7' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '10.30.0.7:16447'. You may need to add '10.30.0.7' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: '10.30.0.7:16447'. You may need to add '10.30.0.7' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '10.30.0.7:16447'. You may need to add '10.30.0.7' to ALLOWED_HOSTS.
+Bad Request: /
+[30/Aug/2022 15:25:36] "GET / HTTP/1.1" 400 78900
+Bad Request: /
+[30/Aug/2022 15:25:37] "GET / HTTP/1.1" 200 1429
+[30/Aug/2022 15:25:37] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+[30/Aug/2022 15:25:37] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 15:25:37] "GET / HTTP/1.1" 200 1429
+[30/Aug/2022 15:25:38] "GET / HTTP/1.1" 200 1429
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: '10.30.1.239:16447'. You may need to add '10.30.1.239' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '10.30.1.239:16447'. You may need to add '10.30.1.239' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: '10.30.1.239:16447'. You may need to add '10.30.1.239' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '10.30.1.239:16447'. You may need to add '10.30.1.239' to ALLOWED_HOSTS.
+Bad Request: /
+Bad Request: /
+[30/Aug/2022 17:07:58] "GET / HTTP/1.1" 200 1429
+[30/Aug/2022 17:07:58] "GET /static/pokedex/style.css HTTP/1.1" 200 521
+[30/Aug/2022 17:07:58] "GET /static/pokebola.gif HTTP/1.1" 200 187942

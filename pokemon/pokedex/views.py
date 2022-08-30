@@ -6,7 +6,7 @@ import requests
 
 
 def index(request):
-    response = requests.get('https://pokeapi.co/api/v2/pokemon/beedrill')
+    response = requests.get('https://pokeapi.co/api/v2/pokemon/gloom')
     pokemon = response.json()
     nome = pokemon['name'].upper()
     tipo1pokemon = pokemon['types'][0]['type']['name']
