@@ -6,14 +6,19 @@ import requests
 
 
 def index(request):
-    response = requests.get('https://pokeapi.co/api/v2/pokemon/hitmonchan')
+    response = requests.get('https://pokeapi.co/api/v2/pokemon/beedrill')
     pokemon = response.json()
     nome = pokemon['name'].upper()
+    tipo1pokemon = pokemon['types'][0]['type']['name']
+    try:
+      tipo2pokemon = pokemon['types'][1]['type']['name']
+    except:
+      tipo2pokemon = 'none'
 
     return render(request, 'index.html',{
     'fotopokemon': pokemon['sprites']['other']['official-artwork']['front_default'],
     'nomepokemon': nome,
     'idpokemon': pokemon['id'],
-    'tipo1pokemon': pokemon['types'][0]['type']['name'],
-    'tipo2pokemon': pokemon['types'][0]['type']['name'],
+    'tipo1pokemon': tipo1pokemon,
+    'tipo2pokemon': tipo2pokemon,
     })

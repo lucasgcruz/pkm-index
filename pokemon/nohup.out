@@ -1,0 +1,96 @@
+Watching for file changes with StatReloader
+[30/Aug/2022 13:38:53] "GET / HTTP/1.1" 200 1351
+[30/Aug/2022 13:38:53] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+[30/Aug/2022 13:38:53] "GET / HTTP/1.1" 200 1351
+[30/Aug/2022 13:38:54] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 30, 2022 - 13:38:52
+Django version 4.1, using settings 'pokemon.settings'
+Starting development server at http://0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[30/Aug/2022 13:40:46] "GET / HTTP/1.1" 200 1351
+[30/Aug/2022 13:40:46] "GET / HTTP/1.1" 200 1351
+[30/Aug/2022 13:40:46] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+[30/Aug/2022 13:40:46] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+[30/Aug/2022 13:42:21] "GET / HTTP/1.1" 200 1351
+[30/Aug/2022 13:42:21] "GET /static/pokedex/style.css HTTP/1.1" 200 363
+[30/Aug/2022 13:42:23] "GET / HTTP/1.1" 200 1351
+[30/Aug/2022 13:42:23] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+[30/Aug/2022 13:42:44] "GET / HTTP/1.1" 200 1351
+[30/Aug/2022 13:42:44] "GET /static/pokedex/style.css HTTP/1.1" 200 361
+[30/Aug/2022 13:43:01] "GET / HTTP/1.1" 200 1351
+[30/Aug/2022 13:43:01] "GET /static/pokedex/style.css HTTP/1.1" 200 361
+[30/Aug/2022 13:43:03] "GET / HTTP/1.1" 200 1351
+[30/Aug/2022 13:43:03] "GET /static/pokedex/style.css HTTP/1.1" 200 361
+[30/Aug/2022 13:43:10] "GET / HTTP/1.1" 200 1351
+[30/Aug/2022 13:43:11] "GET /static/pokedex/style.css HTTP/1.1" 200 361
+[30/Aug/2022 13:43:24] "GET / HTTP/1.1" 200 1351
+[30/Aug/2022 13:43:25] "GET /static/pokedex/style.css HTTP/1.1" 200 361
+[30/Aug/2022 13:43:49] "GET / HTTP/1.1" 200 1351
+[30/Aug/2022 13:43:49] "GET /static/pokedex/style.css HTTP/1.1" 200 361
+[30/Aug/2022 13:44:12] "GET / HTTP/1.1" 200 1351
+[30/Aug/2022 13:44:13] "GET /static/pokedex/style.css HTTP/1.1" 200 361
+[30/Aug/2022 13:45:30] "GET / HTTP/1.1" 200 1351
+[30/Aug/2022 13:45:30] "GET /static/pokedex/style.css HTTP/1.1" 200 395
+[30/Aug/2022 13:45:33] "GET / HTTP/1.1" 200 1351
+[30/Aug/2022 13:45:33] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+[30/Aug/2022 13:45:54] "GET / HTTP/1.1" 200 1351
+[30/Aug/2022 13:45:54] "GET /static/pokedex/style.css HTTP/1.1" 200 414
+[30/Aug/2022 13:45:56] "GET / HTTP/1.1" 200 1351
+[30/Aug/2022 13:45:56] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+[30/Aug/2022 13:45:57] "GET / HTTP/1.1" 200 1351
+[30/Aug/2022 13:45:57] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+[30/Aug/2022 13:46:13] "GET / HTTP/1.1" 200 1351
+[30/Aug/2022 13:46:13] "GET /static/pokedex/style.css HTTP/1.1" 200 409
+[30/Aug/2022 13:46:53] "GET / HTTP/1.1" 200 1351
+[30/Aug/2022 13:46:54] "GET /static/pokedex/style.css HTTP/1.1" 200 409
+[30/Aug/2022 13:47:13] "GET / HTTP/1.1" 200 1351
+[30/Aug/2022 13:47:14] "GET /static/pokedex/style.css HTTP/1.1" 200 409
+[30/Aug/2022 14:02:48] "GET / HTTP/1.1" 200 1412
+[30/Aug/2022 14:02:48] "GET /static/pokedex/style.css HTTP/1.1" 200 409
+[30/Aug/2022 14:02:48] "GET /static/pokebola.gif HTTP/1.1" 200 187942
+[30/Aug/2022 14:03:06] "GET / HTTP/1.1" 200 1420
+[30/Aug/2022 14:03:07] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:03:07] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+[30/Aug/2022 14:03:14] "GET / HTTP/1.1" 200 1420
+[30/Aug/2022 14:03:15] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:03:15] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+[30/Aug/2022 14:04:04] "GET / HTTP/1.1" 200 1434
+[30/Aug/2022 14:04:04] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+[30/Aug/2022 14:04:24] "GET / HTTP/1.1" 200 1438
+[30/Aug/2022 14:04:24] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+[30/Aug/2022 14:04:31] "GET / HTTP/1.1" 200 1438
+[30/Aug/2022 14:04:32] "GET /static/pokedex/style.css HTTP/1.1" 200 409
+[30/Aug/2022 14:04:45] "GET / HTTP/1.1" 200 1439
+[30/Aug/2022 14:04:45] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+[30/Aug/2022 14:04:46] "GET /static/pokebola.gif HTTP/1.1" 200 187942
+[30/Aug/2022 14:04:50] "GET / HTTP/1.1" 200 1439
+[30/Aug/2022 14:04:51] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:04:51] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+[30/Aug/2022 14:05:35] "GET / HTTP/1.1" 200 1421
+[30/Aug/2022 14:05:35] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:05:36] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+[30/Aug/2022 14:05:38] "GET / HTTP/1.1" 200 1421
+[30/Aug/2022 14:05:38] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+[30/Aug/2022 14:05:38] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:06:42] "GET / HTTP/1.1" 200 1421
+[30/Aug/2022 14:06:42] "GET /static/pokedex/style.css HTTP/1.1" 200 459
+[30/Aug/2022 14:06:43] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:06:48] "GET / HTTP/1.1" 200 1421
+[30/Aug/2022 14:06:49] "GET /static/pokedex/style.css HTTP/1.1" 200 459
+[30/Aug/2022 14:06:49] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:07:02] "GET / HTTP/1.1" 200 1421
+[30/Aug/2022 14:07:02] "GET /static/pokedex/style.css HTTP/1.1" 200 459
+[30/Aug/2022 14:07:02] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:07:04] "GET / HTTP/1.1" 200 1421
+[30/Aug/2022 14:07:04] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:07:04] "GET /static/pokedex/style.css HTTP/1.1" 200 459
+[30/Aug/2022 14:14:54] "GET / HTTP/1.1" 200 1421
+[30/Aug/2022 14:14:55] "GET /static/pokedex/style.css HTTP/1.1" 200 459
+[30/Aug/2022 14:14:55] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:15:32] "GET / HTTP/1.1" 200 1421
+[30/Aug/2022 14:15:32] "GET /static/pokebola.gif HTTP/1.1" 304 0
+[30/Aug/2022 14:15:32] "GET /static/pokedex/style.css HTTP/1.1" 200 459

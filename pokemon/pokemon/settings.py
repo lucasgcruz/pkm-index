@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-mq8nalf6xga)^bpi@s*tt)rmxm_llup4de!uh%*@c+5$_=h+0l
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['718fba9f-ee1c-48b6-bb50-6fa98f1a882e.id.repl.co','pkm-index.lucasgcruzz.repl.co',]
+ALLOWED_HOSTS = ['718fba9f-ee1c-48b6-bb50-6fa98f1a882e.id.repl.co','pkm-index.lucasgcruzz.repl.co','10.30.0.206']
 
 
 # Application definition
