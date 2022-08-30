@@ -4,7 +4,7 @@
 
 * {
   font-family: 'Share Tech Mono', monospace;
-  color:#FFF;
+  color:#000;
 }
 
 .center {
@@ -16,12 +16,17 @@
 background-repeat: no-repeat;
 background-size: 18rem;
 background-position: center;
+}
+
+.corpo{
+  
+  background-color:#FFF;
+  margin-top: 5rem;
 
 }
 
-body{
-  background-color:#5ea0c9;
-
+.logo {
+  width: 7rem;
 }
 
 .gifpokebola
@@ -29,14 +34,11 @@ body{
   height:20rem;
   width:20rem;
 
-
 }
 
 .fotopokemon {
   height: 18rem;
   width: 18rem;
-
-  
 }
 
 
