@@ -15,11 +15,15 @@ body{
 
 .backpokeball
 {
+  z-index: 0;
   height:20rem;
   width:20rem;
 }
 
 #foto {
+  position: absolute;
+  z-index: 1;
+  right:45%;
   height: 20rem;
   width: 20rem;
   text-align: center;
