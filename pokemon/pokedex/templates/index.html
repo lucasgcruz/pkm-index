@@ -1,234 +1,178 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1">   
-    <link rel="stylesheet" href="{% static 'pokedex/style.css' %}">
-    <title>Pokédex</title>
-    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/color/480/pokedex.png">
-  <link
-  
-</head>
-
-
-  
-<body class="corpo">
-
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color:#5ea0c9;">
-  <!-- Container wrapper -->
-  <div class="container">
-
-    <!-- Navbar brand -->
-    <a class="navbar-brand" href="#"> <img class="logo img-fluid" src="https://i.ibb.co/cTBwjc1/International-Pok-mon-logo-svg.png"></img></a>
-
-
-      <!-- Search -->
-    <div class="">
-    <div class="input-group"">
-      <div><input style="width:140px;" type="text" class="form-control" placeholder="Buscar"></div>
-      <span class="input-group-btn">
-        <button class="btn btn-default" style="background-color:white;margin-left:10px;" type="button"><img style="width:15px" src="https://cdn-icons-png.flaticon.com/512/116/116836.png"></img></button>
-      </span>
-
-    </div>
-  </div>
-  <!-- Container wrapper -->
-</nav>
-<!-- Navbar -->
-  
-  <section class="separartopo">
-  <div class="center">
-    <div class="imagens">
-      <img src="{{ fotopokemon }}" alt="" class="fotopokemon"
-    </div>
-  </div>
-    <div class="center"><div class="textoretro">{{ nomepokemon }}</div>
-    <div class="textoretro">#{{ idpokemon }}</div>
-    <div class="center" style="margin-top:0.2rem;">
-      
-    {% if tipo1pokemon == 'fighting' %}
-    <img       src="https://upload.wikimedia.org/wikipedia/commons/b/be/Pok%C3%A9mon_Fighting_Type_Icon.svg" alt="" class="center typeicon">
-    {% endif %}
-
-    {% if tipo1pokemon == 'water' %}
-    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Pok%C3%A9mon_Water_Type_Icon.svg" alt="" class="center typeicon">
-    {% endif %}
-
-    {% if tipo1pokemon == 'fire' %}
-    <img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Pokémon_Fire_Type_Icon.svg" alt="" class="center typeicon">
-    {% endif %}
-
-    {% if tipo1pokemon == 'electric' %}
-    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Pok%C3%A9mon_Electric_Type_Icon.svg" alt="" class="center typeicon">
-    {% endif %}
-
-    {% if tipo1pokemon == 'ground' %}
-    <img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Pok%C3%A9mon_Ground_Type_Icon.svg" alt="" class="center typeicon">
-    {% endif %}
-
-    {% if tipo1pokemon == 'ice' %}
-    <img src="https://upload.wikimedia.org/wikipedia/commons/8/88/Pok%C3%A9mon_Ice_Type_Icon.svg" alt="" class="center typeicon">
-    {% endif %}
-
-    {% if tipo1pokemon == 'grass' %}
-    <img src="https://upload.wikimedia.org/wikipedia/commons/f/f6/Pok%C3%A9mon_Grass_Type_Icon.svg" alt="" class="center typeicon">
-    {% endif %}
-
-    {% if tipo1pokemon == 'normal' %}
-    <img src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Pok%C3%A9mon_Normal_Type_Icon.svg" alt="" class="center typeicon">
-    {% endif %}
-
-    {% if tipo1pokemon == 'ghost' %}
-    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Pok%C3%A9mon_Ghost_Type_Icon.svg" alt="" class="center typeicon">
-    {% endif %}
-
-    {% if tipo1pokemon == 'flying' %}
-    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Pok%C3%A9mon_Flying_Type_Icon.svg" alt="" class="center typeicon">
-    {% endif %}
-
-    {% if tipo1pokemon == 'poison' %}
-    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Pok%C3%A9mon_Poison_Type_Icon.svg" alt="" class="center typeicon">
-    {% endif %}
-
-    {% if tipo1pokemon == 'psychic' %}
-    <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Pok%C3%A9mon_Psychic_Type_Icon.svg" alt="" class="center typeicon">
-    {% endif %}
-
-    {% if tipo1pokemon == 'rock' %}
-    <img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Pok%C3%A9mon_Rock_Type_Icon.svg" alt="" class="center typeicon">
-    {% endif %}
-
-    {% if tipo1pokemon == 'steel' %}
-    <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Pok%C3%A9mon_Steel_Type_Icon.svg" alt="" class="center typeicon">
-    {% endif %}
-
-    {% if tipo1pokemon == 'fairy' %}
-    <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Pok%C3%A9mon_Fairy_Type_Icon.svg" alt="" class="center typeicon">
-    {% endif %}
-
-    {% if tipo1pokemon == 'dragon' %}
-    <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Pok%C3%A9mon_Fairy_Type_Icon.svg" alt="" class="center typeicon">
-    {% endif %}
-
-    {% if tipo1pokemon == 'dark' %}
-    <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Pok%C3%A9mon_Dark_Type_Icon.svg" alt="" class="center typeicon">
-    {% endif %}
-
-    {% if tipo1pokemon == 'bug' %}
-    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Pok%C3%A9mon_Bug_Type_Icon.svg" alt="" class="center typeicon">
-    {% endif %}
-
-    {% if tipo2pokemon == 'fighting' %}
-    <img       src="https://upload.wikimedia.org/wikipedia/commons/b/be/Pok%C3%A9mon_Fighting_Type_Icon.svg" alt="" class="center typeicon">
-    {% endif %}
-
-    {% if tipo2pokemon == 'water' %}
-    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Pok%C3%A9mon_Water_Type_Icon.svg" alt="" class="center typeicon">
-    {% endif %}
-
-    {% if tipo2pokemon == 'fire' %}
-    <img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Pokémon_Fire_Type_Icon.svg" alt="" class="center typeicon">
-    {% endif %}
-
-    {% if tipo2pokemon == 'electric' %}
-    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Pok%C3%A9mon_Electric_Type_Icon.svg" alt="" class="center typeicon">
-    {% endif %}
-
-    {% if tipo2pokemon == 'ground' %}
-    <img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Pok%C3%A9mon_Ground_Type_Icon.svg" alt="" class="center typeicon">
-    {% endif %}
-
-    {% if tipo2pokemon == 'ice' %}
-    <img src="https://upload.wikimedia.org/wikipedia/commons/8/88/Pok%C3%A9mon_Ice_Type_Icon.svg" alt="" class="center typeicon">
-    {% endif %}
-
-    {% if tipo2pokemon == 'grass' %}
-    <img src="https://upload.wikimedia.org/wikipedia/commons/f/f6/Pok%C3%A9mon_Grass_Type_Icon.svg" alt="" class="center typeicon">
-    {% endif %}
-
-    {% if tipo2pokemon == 'normal' %}
-    <img src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Pok%C3%A9mon_Normal_Type_Icon.svg" alt="" class="center typeicon">
-    {% endif %}
-
-    {% if tipo2pokemon == 'ghost' %}
-    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Pok%C3%A9mon_Ghost_Type_Icon.svg" alt="" class="center typeicon">
-    {% endif %}
-
-    {% if tipo2pokemon == 'flying' %}
-    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Pok%C3%A9mon_Flying_Type_Icon.svg" alt="" class="center typeicon">
-    {% endif %}
-
-    {% if tipo2pokemon == 'poison' %}
-    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Pok%C3%A9mon_Poison_Type_Icon.svg" alt="" class="center typeicon">
-    {% endif %}
-
-    {% if tipo2pokemon == 'psychic' %}
-    <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Pok%C3%A9mon_Psychic_Type_Icon.svg" alt="" class="center typeicon">
-    {% endif %}
-
-    {% if tipo2pokemon == 'rock' %}
-    <img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Pok%C3%A9mon_Rock_Type_Icon.svg" alt="" class="center typeicon">
-    {% endif %}
-
-    {% if tipo2pokemon == 'steel' %}
-    <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Pok%C3%A9mon_Steel_Type_Icon.svg" alt="" class="center typeicon">
-    {% endif %}
-
-    {% if tipo2pokemon == 'fairy' %}
-    <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Pok%C3%A9mon_Fairy_Type_Icon.svg" alt="" class="center typeicon">
-    {% endif %}
-
-    {% if tipo2pokemon == 'dragon' %}
-    <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Pok%C3%A9mon_Fairy_Type_Icon.svg" alt="" class="center typeicon">
-    {% endif %}
-
-    {% if tipo2pokemon == 'dark' %}
-    <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Pok%C3%A9mon_Dark_Type_Icon.svg" alt="" class="center typeicon">
-    {% endif %}
-
-    {% if tipo2pokemon == 'bug' %}
-    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Pok%C3%A9mon_Bug_Type_Icon.svg" alt="" class="center typeicon">
-    {% endif %}
-
-<div class="center" style="margin:auto; margin-top:0.3rem; width:20rem;">{{ descricao }}</div>
-
-<table class="table table-bordered" style="max-width:500px; margin:auto; margin-top: 1rem;">
-  <thead>
-    <tr>
-      <th scope="col">Altura</th>
-      <th scope="col">Peso</th>
-      <th scope="col">Espécie</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>{{ altura }} m</td>
-      <td>{{ peso }} kg</td>
-      <td>{{ categoria }}</td>
-    </tr>
-  </tbody>
-  </table>
-      
-  </section>
-      
-      
-
-    </div>
-
-
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-<link href="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-      
-
-
-
-      
-    
-</body>
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1">
+      <link rel="stylesheet" href="{% static 'pokedex/style.css' %}">
+      <title>Pokédex</title>
+      <link rel="icon" type="image/x-icon" href="https://img.icons8.com/color/480/pokedex.png">
+      <link
+   </head>
+   <body class="corpo">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color:#5ea0c9;">
+         <!-- Container wrapper -->
+         <div class="container-fluid">
+         <!-- Navbar brand -->
+         <a class="navbar-brand" href="{% url 'index' %}"> <img class="logo img-fluid" src="https://i.ibb.co/cTBwjc1/International-Pok-mon-logo-svg.png"></img></a>
+         <!-- Search -->
+         <div class="">
+            <div class="input-group">
+               <form method="GET" action="/search" style="display:inline-flex;">
+                  <div><input method="GET" action="/search" style="width:140px;" type="text" class="form-control" placeholder="Search" name="query"></div>
+                  <span class="input-group-btn">
+                  <button class="btn btn-default" style="background-color:white;margin-left:10px;" type="submit"><img style="width:15px" src="https://cdn-icons-png.flaticon.com/512/116/116836.png"></img></button>
+                  </span>
+               </form>
+            </div>
+         </div>
+         <!-- Container wrapper -->
+      </nav>
+      <!-- Navbar -->
+      <section class="separartopo">
+         <div class="center">
+            <div class="imagens">
+               <img src="{{ fotopokemon }}" alt="" class="fotopokemon"
+            </div>
+         </div>
+         <div class="center">
+            <div class="textoretro">{{ nomepokemon }}</div>
+            <div class="textoretro">#{{ idpokemon }}</div>
+            <div class="center" style="margin-top:0.2rem;">
+               {% if tipo1pokemon == 'fighting' %}
+               <img       src="https://upload.wikimedia.org/wikipedia/commons/b/be/Pok%C3%A9mon_Fighting_Type_Icon.svg" alt="" class="center typeicon">
+               {% endif %}
+               {% if tipo1pokemon == 'water' %}
+               <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Pok%C3%A9mon_Water_Type_Icon.svg" alt="" class="center typeicon">
+               {% endif %}
+               {% if tipo1pokemon == 'fire' %}
+               <img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Pokémon_Fire_Type_Icon.svg" alt="" class="center typeicon">
+               {% endif %}
+               {% if tipo1pokemon == 'electric' %}
+               <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Pok%C3%A9mon_Electric_Type_Icon.svg" alt="" class="center typeicon">
+               {% endif %}
+               {% if tipo1pokemon == 'ground' %}
+               <img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Pok%C3%A9mon_Ground_Type_Icon.svg" alt="" class="center typeicon">
+               {% endif %}
+               {% if tipo1pokemon == 'ice' %}
+               <img src="https://upload.wikimedia.org/wikipedia/commons/8/88/Pok%C3%A9mon_Ice_Type_Icon.svg" alt="" class="center typeicon">
+               {% endif %}
+               {% if tipo1pokemon == 'grass' %}
+               <img src="https://upload.wikimedia.org/wikipedia/commons/f/f6/Pok%C3%A9mon_Grass_Type_Icon.svg" alt="" class="center typeicon">
+               {% endif %}
+               {% if tipo1pokemon == 'normal' %}
+               <img src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Pok%C3%A9mon_Normal_Type_Icon.svg" alt="" class="center typeicon">
+               {% endif %}
+               {% if tipo1pokemon == 'ghost' %}
+               <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Pok%C3%A9mon_Ghost_Type_Icon.svg" alt="" class="center typeicon">
+               {% endif %}
+               {% if tipo1pokemon == 'flying' %}
+               <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Pok%C3%A9mon_Flying_Type_Icon.svg" alt="" class="center typeicon">
+               {% endif %}
+               {% if tipo1pokemon == 'poison' %}
+               <img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Pok%C3%A9mon_Poison_Type_Icon.svg" alt="" class="center typeicon">
+               {% endif %}
+               {% if tipo1pokemon == 'psychic' %}
+               <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Pok%C3%A9mon_Psychic_Type_Icon.svg" alt="" class="center typeicon">
+               {% endif %}
+               {% if tipo1pokemon == 'rock' %}
+               <img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Pok%C3%A9mon_Rock_Type_Icon.svg" alt="" class="center typeicon">
+               {% endif %}
+               {% if tipo1pokemon == 'steel' %}
+               <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Pok%C3%A9mon_Steel_Type_Icon.svg" alt="" class="center typeicon">
+               {% endif %}
+               {% if tipo1pokemon == 'fairy' %}
+               <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Pok%C3%A9mon_Fairy_Type_Icon.svg" alt="" class="center typeicon">
+               {% endif %}
+               {% if tipo1pokemon == 'dragon' %}
+               <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Pok%C3%A9mon_Fairy_Type_Icon.svg" alt="" class="center typeicon">
+               {% endif %}
+               {% if tipo1pokemon == 'dark' %}
+               <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Pok%C3%A9mon_Dark_Type_Icon.svg" alt="" class="center typeicon">
+               {% endif %}
+               {% if tipo1pokemon == 'bug' %}
+               <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Pok%C3%A9mon_Bug_Type_Icon.svg" alt="" class="center typeicon">
+               {% endif %}
+               {% if tipo2pokemon == 'fighting' %}
+               <img       src="https://upload.wikimedia.org/wikipedia/commons/b/be/Pok%C3%A9mon_Fighting_Type_Icon.svg" alt="" class="center typeicon">
+               {% endif %}
+               {% if tipo2pokemon == 'water' %}
+               <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Pok%C3%A9mon_Water_Type_Icon.svg" alt="" class="center typeicon">
+               {% endif %}
+               {% if tipo2pokemon == 'fire' %}
+               <img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Pokémon_Fire_Type_Icon.svg" alt="" class="center typeicon">
+               {% endif %}
+               {% if tipo2pokemon == 'electric' %}
+               <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Pok%C3%A9mon_Electric_Type_Icon.svg" alt="" class="center typeicon">
+               {% endif %}
+               {% if tipo2pokemon == 'ground' %}
+               <img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Pok%C3%A9mon_Ground_Type_Icon.svg" alt="" class="center typeicon">
+               {% endif %}
+               {% if tipo2pokemon == 'ice' %}
+               <img src="https://upload.wikimedia.org/wikipedia/commons/8/88/Pok%C3%A9mon_Ice_Type_Icon.svg" alt="" class="center typeicon">
+               {% endif %}
+               {% if tipo2pokemon == 'grass' %}
+               <img src="https://upload.wikimedia.org/wikipedia/commons/f/f6/Pok%C3%A9mon_Grass_Type_Icon.svg" alt="" class="center typeicon">
+               {% endif %}
+               {% if tipo2pokemon == 'normal' %}
+               <img src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Pok%C3%A9mon_Normal_Type_Icon.svg" alt="" class="center typeicon">
+               {% endif %}
+               {% if tipo2pokemon == 'ghost' %}
+               <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Pok%C3%A9mon_Ghost_Type_Icon.svg" alt="" class="center typeicon">
+               {% endif %}
+               {% if tipo2pokemon == 'flying' %}
+               <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Pok%C3%A9mon_Flying_Type_Icon.svg" alt="" class="center typeicon">
+               {% endif %}
+               {% if tipo2pokemon == 'poison' %}
+               <img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Pok%C3%A9mon_Poison_Type_Icon.svg" alt="" class="center typeicon">
+               {% endif %}
+               {% if tipo2pokemon == 'psychic' %}
+               <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Pok%C3%A9mon_Psychic_Type_Icon.svg" alt="" class="center typeicon">
+               {% endif %}
+               {% if tipo2pokemon == 'rock' %}
+               <img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Pok%C3%A9mon_Rock_Type_Icon.svg" alt="" class="center typeicon">
+               {% endif %}
+               {% if tipo2pokemon == 'steel' %}
+               <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Pok%C3%A9mon_Steel_Type_Icon.svg" alt="" class="center typeicon">
+               {% endif %}
+               {% if tipo2pokemon == 'fairy' %}
+               <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Pok%C3%A9mon_Fairy_Type_Icon.svg" alt="" class="center typeicon">
+               {% endif %}
+               {% if tipo2pokemon == 'dragon' %}
+               <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Pok%C3%A9mon_Fairy_Type_Icon.svg" alt="" class="center typeicon">
+               {% endif %}
+               {% if tipo2pokemon == 'dark' %}
+               <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Pok%C3%A9mon_Dark_Type_Icon.svg" alt="" class="center typeicon">
+               {% endif %}
+               {% if tipo2pokemon == 'bug' %}
+               <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Pok%C3%A9mon_Bug_Type_Icon.svg" alt="" class="center typeicon">
+               {% endif %}
+               <div class="center" style="margin:auto; margin-top:0.3rem; width:22rem;">{{ descricao }}</div>
+               <table class="table table-bordered" style="max-width:500px; margin:auto; margin-top: 1rem;">
+                  <thead>
+                     <tr>
+                        <th scope="col">Height</th>
+                        <th scope="col">Weight</th>
+                        <th scope="col">Species</th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td>{{ altura }} m</td>
+                        <td>{{ peso }} kg</td>
+                        <td>{{ categoria }}</td>
+                     </tr>
+                  </tbody>
+               </table>
+      </section>
+      </div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+      <link href="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   </body>
 </html>
