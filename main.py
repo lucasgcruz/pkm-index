@@ -1,6 +1,8 @@
 import requests
+from translate import Translator
+translator= Translator(from_lang="en", to_lang="pt")
 
-dados_pokemon = requests.get('https://pokeapi.co/api/v2/pokemon/pidgey').json()
+dados_pokemon = requests.get('https://pokeapi.co/api/v2/pokemon/snorlax').json()
 
 nome = dados_pokemon['name'].upper()
 id = dados_pokemon['id']
@@ -10,8 +12,18 @@ peso = dados_pokemon['weight']
 altura = dados_pokemon['height']
 tipo1pokemon = dados_pokemon['types'][0]['type']['name']
 tipo2pokemon = dados_pokemon['types'][0]['type']['name']
+urlespecie = dados_pokemon['species']['url']
+dados_especie = requests.get(urlespecie).json()
+categoria_ingles = dados_especie['genera'][7]['genus']
+print(categoria_ingles)
+traducao = translator.translate(categoria_ingles)
+descricao = dados_especie['flavor_text_entries'][9]['flavor_text']
+traducaodescricao = translator.translate(descricao)
+print(traducaodescricao)
 
-print(peso)
+
+
+print(traducao)
 
 if peso < 10:
   pass
@@ -31,7 +43,6 @@ elif peso < 10000:
     pesolista.insert(3, '.')
     peso = ''.join(pesolista)
 
-print(altura)
 altura = int(altura)
 if altura < 10:
   alturalista = list(str(altura))
@@ -52,5 +63,3 @@ elif altura < 10000:
   alturalista = list(str(altura))
   alturalista.insert(3, '.')
   altura = ''.join(alturalista)
-
-print(altura)

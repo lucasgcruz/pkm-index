@@ -1,5 +1,7 @@
 from django.shortcuts import render
 import requests
+from translate import Translator
+
 
 # Create your views here.
 
@@ -17,6 +19,14 @@ def index(request):
 
     peso = pokemon['weight']
     altura = pokemon['height']
+    urlespecie = pokemon['species']['url']
+    dados_especie = requests.get(urlespecie).json()
+    categoria_ingles = dados_especie['genera'][7]['genus']
+    translator= Translator(to_lang="pt")
+    traducao = translator.translate(categoria_ingles)
+    descricao = dados_especie['flavor_text_entries'][9]['flavor_text']
+    traducaodescricao = translator.translate(descricao)
+    
 
     if peso<10:0
     elif peso<100:pesolista=list(str(peso));pesolista.insert(1,'.');peso=''.join(pesolista)
@@ -38,4 +48,6 @@ def index(request):
     'tipo2pokemon': tipo2pokemon,
     'peso': peso,
     'altura': altura,
+    'categoria': categoria_ingles,
+    'descricao': descricao,
     })

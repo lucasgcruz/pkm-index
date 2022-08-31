@@ -1,11 +1,18 @@
 
 
-@import url(//fonts.googleapis.com/css?family=Roboto:700,400,300,100);@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+
+.textoretro {
+  font-family: 'Share Tech Mono', monospace;
+}
 
 * {
-  font-family: 'Share Tech Mono', monospace;
+  font-family: 'Roboto', sans-serif;
   color:#000;
 }
+
+
 
 .center {
     text-align: center;
@@ -21,7 +28,6 @@ background-position: center;
 .corpo{
   
   background-color:#FFF;
-  margin-top: 5rem;
 
 }
 
@@ -46,4 +52,8 @@ background-position: center;
 .typeicon {
   height: 3rem;
   width: 3rem;
+}
+
+.separartopo {
+  margin-top:5rem;
 }

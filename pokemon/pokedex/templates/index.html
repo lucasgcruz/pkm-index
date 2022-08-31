@@ -1,6 +1,6 @@
 {% load static %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,16 +19,19 @@
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color:#5ea0c9;">
   <!-- Container wrapper -->
-  <div class="container-fluid">
+  <div class="container">
 
     <!-- Navbar brand -->
-    <a class="navbar-brand" href="#"> <img class="logo img-responsive" src="https://i.ibb.co/cTBwjc1/International-Pok-mon-logo-svg.png"></img></a>
+    <a class="navbar-brand" href="#"> <img class="logo img-fluid" src="https://i.ibb.co/cTBwjc1/International-Pok-mon-logo-svg.png"></img></a>
 
 
       <!-- Search -->
-      <form class="w-auto">
-        <input type="search" class="form-control" placeholder="Buscar pokémon" aria-label="Search">
-      </form>
+    <div class="">
+    <div class="input-group"">
+      <div><input style="width:140px;" type="text" class="form-control" placeholder="Buscar"></div>
+      <span class="input-group-btn">
+        <button class="btn btn-default" style="background-color:white;margin-left:10px;" type="button"><img style="width:15px" src="https://cdn-icons-png.flaticon.com/512/116/116836.png"></img></button>
+      </span>
 
     </div>
   </div>
@@ -36,17 +39,15 @@
 </nav>
 <!-- Navbar -->
   
-    <div class="center">Olá mundo, esta Pokédex ainda é muito humilde então se contentem com apenas um pokémon.</div>
-  <br>
-  <section>
+  <section class="separartopo">
   <div class="center">
     <div class="imagens">
       <img src="{{ fotopokemon }}" alt="" class="fotopokemon"
     </div>
   </div>
-    <div class="center"><div>{{ nomepokemon }}</div>
-    <div>#{{ idpokemon }}</div>
-    <div class="center">
+    <div class="center"><div class="textoretro">{{ nomepokemon }}</div>
+    <div class="textoretro">#{{ idpokemon }}</div>
+    <div class="center" style="margin-top:0.2rem;">
       
     {% if tipo1pokemon == 'fighting' %}
     <img       src="https://upload.wikimedia.org/wikipedia/commons/b/be/Pok%C3%A9mon_Fighting_Type_Icon.svg" alt="" class="center typeicon">
@@ -191,20 +192,26 @@
     {% if tipo2pokemon == 'bug' %}
     <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Pok%C3%A9mon_Bug_Type_Icon.svg" alt="" class="center typeicon">
     {% endif %}
-<table class="table" style="max-width:200px; margin:auto;">
+
+<div class="center" style="margin:auto; margin-top:0.3rem; width:20rem;">{{ descricao }}</div>
+
+<table class="table table-bordered" style="max-width:500px; margin:auto; margin-top: 1rem;">
   <thead>
     <tr>
       <th scope="col">Altura</th>
       <th scope="col">Peso</th>
+      <th scope="col">Espécie</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>{{ altura }} m</td>
       <td>{{ peso }} kg</td>
+      <td>{{ categoria }}</td>
     </tr>
   </tbody>
   </table>
+      
   </section>
       
       
