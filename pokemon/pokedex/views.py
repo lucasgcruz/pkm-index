@@ -1,5 +1,6 @@
 from django.shortcuts import render
 import requests
+import translators as ts
 
 
 # Create your views here.
@@ -25,9 +26,13 @@ def search(request):
       altura = pokemon['height']
       urlespecie = pokemon['species']['url']
       dados_especie = requests.get(urlespecie).json()
-      categoria_ingles = dados_especie['genera'][7]['genus']
+      categoria = dados_especie['genera'][7]['genus']
       descricao = dados_especie['flavor_text_entries'][9]['flavor_text']
-      descricao = descricao.replace('',' ')
+      categoria = ts.lingvanex(categoria, from_language='en_GB', to_language='pt_BR')
+      descricao = ts.lingvanex(descricao, from_language='en_GB', to_language='pt_BR')
+      
+
+
       
   
       if peso<10:0
@@ -50,7 +55,7 @@ def search(request):
       'tipo2pokemon': tipo2pokemon,
       'peso': peso,
       'altura': altura,
-      'categoria': categoria_ingles,
+      'categoria': categoria,
       'descricao': descricao,
       })
     except:

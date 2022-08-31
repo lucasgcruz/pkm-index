@@ -1,8 +1,11 @@
 import requests
-from translate import Translator
-translator= Translator(from_lang="en", to_lang="pt")
+import translators as ts
 
-dados_pokemon = requests.get('https://pokeapi.co/api/v2/pokemon/caterpie').json()
+
+
+dados_pokemon = requests.get('https://pokeapi.co/api/v2/pokemon/machamp').json()
+
+
 
 nome = dados_pokemon['name'].upper()
 id = dados_pokemon['id']
@@ -16,12 +19,15 @@ urlespecie = dados_pokemon['species']['url']
 dados_especie = requests.get(urlespecie).json()
 categoria_ingles = dados_especie['genera'][7]['genus']
 print(categoria_ingles)
-traducao = translator.translate(categoria_ingles)
+categoria_ingles = ts.lingvanex(categoria_ingles, from_language='en_EN', to_language='pt_BR')
+print(categoria_ingles)
+
 descricao = dados_especie['flavor_text_entries'][9]['flavor_text']
 descricao = descricao.replace('',' ')
-traducaodescricao = translator.translate(descricao)
 print(descricao)
 
+descricao = ts.lingvanex(descricao, from_language='en_EN', to_language='pt_BR')
+print(descricao)
 
 
 

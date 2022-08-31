@@ -6679,3 +6679,148 @@ Watching for file changes with StatReloader
 [31/Aug/2022 17:30:18] "GET / HTTP/1.1" 200 3881
 [31/Aug/2022 17:30:18] "GET / HTTP/1.1" 200 3881
 [31/Aug/2022 17:30:19] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: '10.30.1.69:16439'. You may need to add '10.30.1.69' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '10.30.1.69:16439'. You may need to add '10.30.1.69' to ALLOWED_HOSTS.
+Bad Request: /
+[31/Aug/2022 19:02:59] "GET / HTTP/1.1" 200 2386
+[31/Aug/2022 19:02:59] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+[31/Aug/2022 19:07:49] "GET / HTTP/1.1" 200 2386
+[31/Aug/2022 19:07:49] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+/home/runner/pkm-index/pokemon/pokedex/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 31, 2022 - 19:02:58
+Django version 4.1, using settings 'pokemon.settings'
+Starting development server at http://0:7000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/nix/store/2vm88xw7513h9pyjyafw32cps51b0ia1-python3-3.8.12/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/nix/store/2vm88xw7513h9pyjyafw32cps51b0ia1-python3-3.8.12/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/core/management/base.py", line 475, in check
+    all_issues = checks.run_checks(
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/core/checks/registry.py", line 88, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/core/checks/urls.py", line 14, in check_url_config
+    return check_resolver(resolver)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/core/checks/urls.py", line 24, in check_resolver
+    return check_method()
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 476, in check
+    for pattern in self.url_patterns:
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 690, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 683, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/nix/store/2vm88xw7513h9pyjyafw32cps51b0ia1-python3-3.8.12/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/runner/pkm-index/pokemon/pokemon/urls.py", line 21, in <module>
+    path('', include('pokedex.urls')),
+  File "/home/runner/pkm-index/venv/lib/python3.8/site-packages/django/urls/conf.py", line 38, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/nix/store/2vm88xw7513h9pyjyafw32cps51b0ia1-python3-3.8.12/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/runner/pkm-index/pokemon/pokedex/urls.py", line 3, in <module>
+    from . import views
+  File "/home/runner/pkm-index/pokemon/pokedex/views.py", line 4
+    >>> translator = Translator()
+    ^
+SyntaxError: invalid syntax
+/home/runner/pkm-index/pokemon/pokedex/views.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+[31/Aug/2022 19:29:28] "GET / HTTP/1.1" 200 2386
+[31/Aug/2022 19:29:28] "GET /static/pokedex/style.css HTTP/1.1" 304 0
+/home/runner/pkm-index/pokemon/pokedex/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 31, 2022 - 19:29:27
+Django version 4.1, using settings 'pokemon.settings'
+Starting development server at http://0:7000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[31/Aug/2022 19:29:46] "GET / HTTP/1.1" 200 2386
+/home/runner/pkm-index/pokemon/pokedex/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 31, 2022 - 19:29:45
+Django version 4.1, using settings 'pokemon.settings'
+Starting development server at http://0:7000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/home/runner/pkm-index/pokemon/pokedex/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 31, 2022 - 19:29:55
+Django version 4.1, using settings 'pokemon.settings'
+Starting development server at http://0:7000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[31/Aug/2022 19:29:59] "GET / HTTP/1.1" 200 2386
+/home/runner/pkm-index/pokemon/pokedex/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 31, 2022 - 19:29:59
+Django version 4.1, using settings 'pokemon.settings'
+Starting development server at http://0:7000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[31/Aug/2022 19:30:08] "GET / HTTP/1.1" 200 2386
+/home/runner/pkm-index/pokemon/pokedex/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 31, 2022 - 19:30:07
+Django version 4.1, using settings 'pokemon.settings'
+Starting development server at http://0:7000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/home/runner/pkm-index/pokemon/pokedex/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 31, 2022 - 19:30:23
+Django version 4.1, using settings 'pokemon.settings'
+Starting development server at http://0:7000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[31/Aug/2022 19:30:28] "GET / HTTP/1.1" 200 2386
