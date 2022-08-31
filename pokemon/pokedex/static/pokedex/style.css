@@ -12,7 +12,9 @@
   color:#000;
 }
 
-
+.centrototal {
+  margin:auto;
+}
 
 .center {
     text-align: center;
@@ -57,3 +59,11 @@ background-position: center;
   margin-top:5rem;
 }
 
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}

@@ -2,7 +2,7 @@ import requests
 from translate import Translator
 translator= Translator(from_lang="en", to_lang="pt")
 
-dados_pokemon = requests.get('https://pokeapi.co/api/v2/pokemon/snorlax').json()
+dados_pokemon = requests.get('https://pokeapi.co/api/v2/pokemon/caterpie').json()
 
 nome = dados_pokemon['name'].upper()
 id = dados_pokemon['id']
@@ -18,12 +18,12 @@ categoria_ingles = dados_especie['genera'][7]['genus']
 print(categoria_ingles)
 traducao = translator.translate(categoria_ingles)
 descricao = dados_especie['flavor_text_entries'][9]['flavor_text']
+descricao = descricao.replace('',' ')
 traducaodescricao = translator.translate(descricao)
-print(traducaodescricao)
+print(descricao)
 
 
 
-print(traducao)
 
 if peso < 10:
   pass
